@@ -1,7 +1,7 @@
 {
-  "name": "kagent",
+  "name": "imine-boron",
   "version": "0.1.0",
-  "description": "Bun CLI Framework with OOP Architecture",
+  "description": "Spec-driven development using phased-based loops and claude-code CLI",
   "type": "module",
   "bin": "./dist/kagent",
   "scripts": {
