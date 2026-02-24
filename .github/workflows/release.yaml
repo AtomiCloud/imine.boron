@@ -17,5 +17,5 @@ jobs:
     uses: ./.github/workflows/⚡reusable-release.yaml
     secrets: inherit
     with:
-      atomi_platform: personal
-      atomi_service: dev-loop
+      atomi_platform: imine
+      atomi_service: boron

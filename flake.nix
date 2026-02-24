@@ -1,5 +1,5 @@
 {
-  description = "Personal Dev-loop";
+  description = "Imine Boron";
   inputs = {
     # util
     flake-utils.url = "github:numtide/flake-utils";

@@ -9,16 +9,16 @@ jobs:
     uses: ./.github/workflows/⚡reusable-precommit.yaml
     secrets: inherit
     with:
-      atomi_platform: personal
-      atomi_service: kagent
+      atomi_platform: imine
+      atomi_service: boron
 
   test-unit:
     name: Unit Tests
     uses: ./.github/workflows/⚡reusable-test.yaml
     secrets: inherit
     with:
-      atomi_platform: personal
-      atomi_service: kagent
+      atomi_platform: imine
+      atomi_service: boron
       test_type: unit
       coverage_target: '100'
 
@@ -27,8 +27,8 @@ jobs:
     uses: ./.github/workflows/⚡reusable-test.yaml
     secrets: inherit
     with:
-      atomi_platform: personal
-      atomi_service: kagent
+      atomi_platform: imine
+      atomi_service: boron
       test_type: int
       coverage_target: '80'
 
@@ -37,5 +37,7 @@ jobs:
     uses: ./.github/workflows/⚡reusable-build.yaml
     secrets: inherit
     with:
-      atomi_platform: personal
-      atomi_service: kagent
+      atomi_platform: imine
+      atomi_service: boron
+  #
+  #
